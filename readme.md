@@ -125,12 +125,12 @@ A template-driven algorithm parses schema and fills predefined question formats 
 
 ###  Pseudocode
 
-### 1. Load Required Files
+#### 1. Load Required Files
 - Load database schemas from `schemas.json`.
 
----
 
-### 2. Display Question Type Options
+
+#### 2. Display Question Type Options
 - Prompt user to choose the type of questions:
   - `1 → MCQs`
   - `2 → True/False`
@@ -140,58 +140,58 @@ A template-driven algorithm parses schema and fills predefined question formats 
   - `relational_model_TF.json`
   - `relational_model_full_qna.json`
 
----
 
-### 3. Select Topic
+
+#### 3. Select Topic
 - Display a numbered list of relational model topics.
 - Prompt the user to select a topic.
 
----
 
-### 4. Select Difficulty
+
+#### 4. Select Difficulty
 - Ask the user to choose a difficulty level:
   - `1 → Easy`
   - `2 → Medium`
   - `3 → Hard`
 
----
 
-### 5. Select Database
+
+#### 5. Select Database
 - Show a list of available databases (e.g., `college_db`, `hospital_db`, `retail_db`, etc.).
 - Prompt the user to select one.
 
----
 
-### 6. Choose Number of Questions
+
+#### 6. Choose Number of Questions
 - Ask the user how many questions they want to attempt (between 3 and 10).
 
----
 
-### 7. Filter Questions
+
+#### 7. Filter Questions
 - From the loaded dataset, filter the questions using:
   - Selected topic
   - Selected difficulty
   - Selected database
 
----
 
-### 8. Display Selected Questions
+
+#### 8. Display Selected Questions
 - For each selected question:
   - Print the question.
   - If question type is `MCQ`, show multiple choice options (A, B, C, D...).
   - If question type is `True/False`, show `True` and `False` options.
 
----
 
-### 9. Display Related Schema
+
+#### 9. Display Related Schema
 - Display schema for the selected database:
   - Table names
   - Column names with data types
   - Any constraints associated with the columns
 
----
 
-### 10. Launch ER Diagram (Optional)
+
+#### 10. Launch ER Diagram (Optional)
 - Check if an ER diagram file exists for the selected database (e.g., `college_db_er.py`).
   - If exists:
     - Run the file using `streamlit`.
@@ -199,14 +199,13 @@ A template-driven algorithm parses schema and fills predefined question formats 
   - If not:
     - Display a message saying the ER diagram is not available.
 
----
 
-### 11. Ask to Show Answers
+
+#### 11. Ask to Show Answers
 - Prompt the user: "Do you want to see the answers?"
   - If yes → Display the correct answers to the selected questions.
   - If no → Exit the program politely.
 
----
 
 ## Template Development (Criteria 4)
 
