@@ -432,5 +432,22 @@ The project follows a clean architecture with **SoC (Separation of Concerns)**:
 
 Each component is self-contained, **modular**, and **reusable**.
 
+---
+
+## Self Rubrics Evaluation 
+
+| Criteria No. | Criteria                              | Max Score | Self-Assigned Score | Justification                                                                 |
+|--------------|----------------------------------------|-----------|----------------------|-------------------------------------------------------------------------------|
+| 1            | Domain Understanding                  | 4         | 3                    | All relational concepts (keys, constraints, integrity) thoroughly covered     |
+| 2            | Topic-Question Mapping                | 4         | 3                    | Clear mapping of each question to topic, DB, and difficulty level             |
+| 3            | Algorithm Design                      | 4         | 3                    | Clean, template-based design with detailed pseudocode                         |
+| 4            | Template Development                  | 4         | 2                    | Covers MCQs, True/False, and Text-Based formats with placeholders             |
+| 5            | Difficulty Calibration                | 4         | 3                    | Questions categorized accurately into easy, medium, and hard                  |
+| 6            | Evaluation of Generated Questions     | 4         | 3                    | Well-structured with schema alignment, correctness, clarity                   |
+| 7            | Code Implementation & Functionality   | 4         | 3                    | Modular Python code with CLI + ER Viewer, handles all user flows              |
+| 8            | Documentation                         | 4         | 3                    | Complete with README, inline comments, schema examples, and pseudocode        |
+| 9            | Innovation and Originality            | 4         | 3                    | Schema-aware generation + ER diagram launcher is unique and academic-aligned  |
+| 10           | Separation of Concerns                | 4         | 4                    | All modules have clear responsibility and are reusable                        |
+|              | **Total**                             | **40**    | **30**               |                                                                               |
 
 
