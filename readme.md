@@ -12,29 +12,31 @@ The Relational Data Model is a foundational concept in database systems, organiz
 
 
 
-## Domain Understanding (Criteria 1)
+## ✅ Domain Understanding (Criteria 1)
 
-Understanding database schema, keys, constraints, and how they ensure data integrity.
+Understanding how database schemas, keys, and constraints ensure data consistency and integrity across levels of complexity.
 
-**Relational Schema**: Understanding table structures and relationships.
+### Foundational Concepts
+These are the basic building blocks of the relational data model, crucial for beginners.
 
-**Domain Constraints**: Ensuring column values belong to a specific domain.
+- **Relational Schema**: Structure of tables and how they relate.
+- **Domain Constraints**: Ensuring values in a column belong to a specific type or range.
+- **Key Constraints**: Uniqueness of values for identification (e.g., no duplicate primary keys).
 
-**Key Constraints**: Enforcing uniqueness constraints on attributes.
+### Intermediate Concepts
+Build upon the basics and introduce relationships and data integrity enforcement.
 
-**Candidate Keys and Primary Key**: Understanding unique identifiers in tables.
+- **Candidate Keys and Primary Key**: Understanding all possible unique identifiers, and selecting one as the primary.
+- **Entity Integrity & NOT NULL Constraint**: Ensures that primary keys are never left undefined (null).
+- **Foreign Key**: Used to create a link between two tables.
 
-**Integrity Constraints**: Enforcing database consistency rules.
+### Complex Concepts
+Require a deeper understanding of multiple concepts working together.
 
-**Entity Integrity and NOT NULL Constraints**: Ensuring valid records
+- **Referential Integrity Constraint**: Ensures foreign keys in a table correctly refer to valid rows in another table.
+- **Integrity Constraints**: General rules that enforce database consistency.
+- **Assertion Constraints**: Custom-defined complex rules across multiple relations.
 
-**Foreign Key**: Establishing relationships between tables.
-
-**Referential Integrity Constraint**: Maintaining consistent references
-
-**Assertion Constraints**: Enforcing complex constraints on data.
-
----
 
 ## Topic Question Mapping (Criteria 2)
 
