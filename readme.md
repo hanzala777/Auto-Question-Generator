@@ -76,8 +76,8 @@ TRUE OR FALSE Template Example
 {
     "topic": "Relational Schema",
     "difficulty": "easy",
-    "db_name": "space_research_db",
-    "question": "Tables like 'Astronaut' in 'space_research_db' are essential components of a relational schema.",
+    "db_name": "{database}",
+    "question": "Tables like '{table}' in '{database}' are essential components of a relational schema.",
     "answer": true
 }
 ```
@@ -86,8 +86,8 @@ MCQs Template Example
 {
     "topic": "NOT NULL & Entity Integrity",
     "difficulty": "easy",
-    "db_name": "retail_db",
-    "question": "How does the NOT NULL constraint on 'CustomerID' in 'Customers' of 'retail_db' support entity integrity?",
+    "db_name": "{database}",
+    "question": "How does the NOT NULL constraint on '{column}' in '{table}' of '{database}' support entity integrity?",
     "options": [
         "By disallowing missing essential data in the primary key",
         "By linking databases",
@@ -102,9 +102,9 @@ Text-Based Template Example
 {
     "topic": "NOT NULL & Entity Integrity",
     "difficulty": "hard",
-    "db_name": "hospital_db",
-    "question": "What does entity integrity ensure for the primary key in the 'Appointment' table of 'hospital_db'?",
-    "answer": "Entity integrity ensures that the primary key in the 'Appointment' table cannot contain NULL values."
+    "db_name": "{database}",
+    "question": "What does entity integrity ensure for the primary key in the '{table}' table of '{database}'?",
+    "answer": "Entity integrity ensures that the primary key in the '{table}' table cannot contain NULL values."
 }
 ```
 
@@ -244,8 +244,8 @@ TRUE OR FALSE Template Example
 {
     "topic": "Relational Schema",
     "difficulty": "easy",
-    "db_name": "space_research_db",
-    "question": "Tables like 'Astronaut' in 'space_research_db' are essential components of a relational schema.",
+    "db_name": "{database}",
+    "question": "Tables like '{table}' in '{database}' are essential components of a relational schema.",
     "answer": true
 }
 ```
@@ -254,8 +254,8 @@ MCQs Template Example
 {
     "topic": "NOT NULL & Entity Integrity",
     "difficulty": "easy",
-    "db_name": "retail_db",
-    "question": "How does the NOT NULL constraint on 'CustomerID' in 'Customers' of 'retail_db' support entity integrity?",
+    "db_name": "{database}",
+    "question": "How does the NOT NULL constraint on '{column}' in '{table}' of '{database}' support entity integrity?",
     "options": [
         "By disallowing missing essential data in the primary key",
         "By linking databases",
@@ -270,9 +270,9 @@ Text-Based Template Example
 {
     "topic": "NOT NULL & Entity Integrity",
     "difficulty": "hard",
-    "db_name": "hospital_db",
-    "question": "What does entity integrity ensure for the primary key in the 'Appointment' table of 'hospital_db'?",
-    "answer": "Entity integrity ensures that the primary key in the 'Appointment' table cannot contain NULL values."
+    "db_name": "{database}",
+    "question": "What does entity integrity ensure for the primary key in the '{table}' table of '{database}'?",
+    "answer": "Entity integrity ensures that the primary key in the '{table}' table cannot contain NULL values."
 }
 ```
 ---
