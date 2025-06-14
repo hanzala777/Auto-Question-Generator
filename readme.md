@@ -12,7 +12,7 @@ The Relational Data Model is a foundational concept in database systems, organiz
 
 
 
-## ✅ Domain Understanding (Criteria 1)
+## Domain Understanding (Criteria 1)
 
 Understanding how database schemas, keys, and constraints ensure data consistency and integrity across levels of complexity.
 
@@ -37,6 +37,7 @@ Require a deeper understanding of multiple concepts working together.
 - **Integrity Constraints**: General rules that enforce database consistency.
 - **Assertion Constraints**: Custom-defined complex rules across multiple relations.
 
+---
 
 ## Topic Question Mapping (Criteria 2)
 
@@ -219,6 +220,8 @@ A template-driven algorithm parses schema and fills predefined question formats 
   - If no → Exit the program politely.
 ```
 
+---
+
 ## Template Development (Criteria 4)
 
 Each subtopic has flexible templates with placeholders to match schema and difficulty.
@@ -284,7 +287,7 @@ Questions are tagged from easy to hard based on conceptual depth and schema comp
 
 **Level 3 (Hard)**: Combine constraints, analyze integrity across relations
 
----
+
 
 ### Question Complexity Levels
 
@@ -396,7 +399,7 @@ All operations are performed via a **menu-driven CLI**, ensuring a smooth user e
 
 ---
 
-## Documentation (Criteria 8)
+## Documentation And Github Repository (Criteria 8)
 
 The project is fully documented with:
 
@@ -405,6 +408,7 @@ The project is fully documented with:
 - **Pseudocode**: Embedded in documentation for algorithm clarity
 - **Schema File**: `schemas.json` with structured metadata
 - **Question Files**: Clearly named (`relational_model_mcqs.json`, etc.)
+- **Github**: Well documented github repository
 
 This ensures **ease of understanding**, maintainability, and extension.
 
@@ -451,5 +455,5 @@ Each component is self-contained, **modular**, and **reusable**.
 | 9            | Innovation and Originality            | 4         | 3                    | Schema-aware generation + ER diagram launcher is unique and academic-aligned  |
 | 10           | Separation of Concerns                | 4         | 4                    | All modules have clear responsibility and are reusable                        |
 |              | **Total**                             | **40**    | **30**               |                                                                               |
-
+---
 
