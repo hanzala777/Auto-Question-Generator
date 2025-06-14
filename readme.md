@@ -275,7 +275,6 @@ Text-Based Template Example
     "answer": "Entity integrity ensures that the primary key in the 'Appointment' table cannot contain NULL values."
 }
 ```
-
 ---
 
 ## Difficulty Calibration (Criteria 5)
@@ -287,15 +286,12 @@ Questions are tagged from easy to hard based on conceptual depth and schema comp
 
 **Level 3 (Hard)**: Combine constraints, analyze integrity across relations
 
+| **Difficulty** | **Criteria** |
+|----------------|--------------|
+| **Easy** | - Focuses on basic facts and direct definitions<br>- Requires minimal or no schema navigation<br>- Answers are primarily recall-based and explicitly available in the schema |
+| **Medium** | - Involves moderate reasoning and understanding of table relationships<br>- Requires interpreting column-level metadata (e.g., data types, constraints)<br>- May reference more than one attribute or concept |
+| **Hard** | - Demands deep understanding of schema logic, relationships, and constraints<br>- Requires analytical or application-based thinking (e.g., candidate keys, normalization)<br>- Often may span multiple tables and rules |
 
-
-### Question Complexity Levels
-
-| Level |        Concepts                | Complexity  |
-|-------|--------------------------------|-------------|
-| L01   | Table structure, keys, tuples  | Low         |
-| L02   | Select, project, join, set ops | Medium      |
-| L03   | Functional dependencies, FDs   | Medium-High |
 
 #### Level 01: 
 
